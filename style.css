@@ -330,3 +330,26 @@ a:hover {
 .in {
     background-color: #ac2bac;
 }
+
+@media screen and (max-width: 991px) {
+    .big-bild {
+        max-width: 310px; 
+        height: auto; 
+        object-fit: fill;
+    }
+
+    .bilder {
+        max-width: 250px; 
+        min-width: 250px;
+        max-height: 250px;
+        min-height: 250px;
+    }
+
+    main{
+        padding-bottom: 100px;
+    }
+
+    .p2{
+        margin-top: 80px;
+    }
+}
